@@ -13,7 +13,7 @@ void FillArray(int[,] array)
     }
 
 }
-async void PrintMassiv(int[,] array)
+void PrintMassiv(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
